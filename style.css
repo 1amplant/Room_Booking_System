@@ -1,0 +1,77 @@
+body#loginBody {
+    background-image: url('login-bg.jpg');
+    /* image to conver body */
+    background-size: cover;
+    /* center bg image */
+    background-position: center;
+    /* ensure image does not scroll with body */
+    background-attachment: fixed;
+    display: flex;
+    /* horizontal aligment */
+    justify-content: center; 
+    /* vertical alignment */
+    align-items: center;
+    /* bg image will take full screen ht */
+    height: 100vh;
+    font-family: "Papyrus", "Courier New";
+   
+}
+
+.container {
+    background-color: #b881e6;
+    width: 600px;
+    height: 600px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+}
+
+#title {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 5vh;
+}
+
+button {
+    top: 310px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background-color: #6c0dbf;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 50px;
+    cursor: pointer;
+    font-family: "Papyrus", "Courier New";
+    margin-top: 75px;
+}
+
+button:hover
+{
+    background-color: #4f0b8b;
+}
+
+.field-container
+{
+    margin-bottom: 25px;
+}
+
+label {
+    font-size: 25px;
+}
+
+input {
+    width: 300px;
+    height: 40px; 
+    padding: 10px;
+    font-size: 16px; 
+    border: 2px solid #ccc; 
+    border-radius: 5px; 
+}
